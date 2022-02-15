@@ -40,7 +40,7 @@ StarRocks数据导入整体生态图如下。
 具体导入方式详情请参考[数据导入](../loading/Loading_intro.md)。这里为了尽快导入测试数据，我们只介绍利用HTTP协议的Stream load方式导入。
 
 * **示例1**：以 "table1\_20170707"为Label，使用本地文件table1\_data导入table1表。
-* 在本地创建数据文件able1\_data，以逗号作为数据之间的分隔符，具体内容如下：
+* 在本地创建数据文件table1\_data，以逗号作为数据之间的分隔符，具体内容如下：
 
 ```Plain Text
 1,1,jim,2
