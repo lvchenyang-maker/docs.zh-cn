@@ -612,7 +612,7 @@ mysql> desc table1;
 
   <br/>
 
-mysql> desc table2;
+mysql> desc table2 all;
 
 +-----------+-------------+------+-------+---------+-------+
 | Field     | Type        | Null | Key   | Default | Extra |
