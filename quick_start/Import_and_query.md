@@ -208,7 +208,7 @@ SHOW ALTER TABLE COLUMN\G
 ALTER TABLE完成之后, 可以通过desc table查看最新的schema：
 
 ```Plain Text
-mysql> desc table1;
+mysql> desc table1 all;
 
 +----------+-------------+------+-------+---------+-------+
 | Field    | Type        | Null | Key   | Default | Extra |
